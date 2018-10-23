@@ -36,7 +36,6 @@ export class SignupComponent implements OnInit {
 
   doSignUp() {
     this.submitted = true;
-    debugger;
     if (this.signupForm.invalid || !this.passwordConfirming()) {
       return;
     }
